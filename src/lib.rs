@@ -43,7 +43,7 @@ fn HomePage() -> impl IntoView {
             <p>"This is a simple static website built with Leptos and Rust."</p>
             
             <div class="counter">
-                <h2>"Interactive Counter"</h2>
+                <h2>"Fantastic Interactive Counter"</h2>
                 <div class="count">{count}</div>
                 <div>
                     <button on:click=move |_| set_count.update(|n| *n -= 1)>
